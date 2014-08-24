@@ -77,4 +77,5 @@ RSpec.configure do |config|
 =end
 end
 
+require File.expand_path('../../lib/cryptopals', __FILE__)
 require 'pry'
